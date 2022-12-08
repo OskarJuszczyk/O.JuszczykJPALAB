@@ -11,7 +11,7 @@ public class MainJPA {
         EntityManager em = emf.createEntityManager();
         EntityTransaction etx = em.getTransaction();
         etx.begin();
-        
+
         Supplier supplier = new Supplier("Mlekowita", "Kwiatowa", "Warszawa");
         Category category = new Category("Nabiał");
         Product product = new Product("Ser", 4, supplier, category);
@@ -57,6 +57,8 @@ public class MainJPA {
         em.persist(product3);
         em.persist(invoice);
         em.persist(invoice1);
+        em.persist(supplier1);
+        em.persist(supplier);
 
         etx.commit();
         em.close();

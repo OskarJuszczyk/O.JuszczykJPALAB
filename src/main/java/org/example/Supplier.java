@@ -5,13 +5,16 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 @Entity
+@SecondaryTable(name = "ADDRESS")
 public class Supplier {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int SupplierId;
 
     private String CompanyName;
+    @Column(table = "ADDRESS")
     private String Street;
+    @Column(table = "ADDRESS")
     private String City;
 
 
