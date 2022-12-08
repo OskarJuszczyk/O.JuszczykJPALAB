@@ -32,4 +32,12 @@ public class Invoice {
 
     public Invoice() {
     }
+
+    @Override
+    public String toString() {
+        return "Invoice{" +
+                "InvoiceId=" + InvoiceId +
+                ", Quantity=" + Quantity +
+                '}';
+    }
 }

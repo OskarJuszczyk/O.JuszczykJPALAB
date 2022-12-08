@@ -69,11 +69,9 @@ public class Main {
 //
 //            tx.commit();
 
-            Invoice invoice = session.get(Invoice.class, 129);
-            invoice.getProducts().forEach(System.out::println);
+            Product product = session.find(Product.class, 125);
+            product.getInvoices().forEach(System.out::println);
 
-            Invoice invoice1 = session.get(Invoice.class, 130);
-            invoice1.getProducts().forEach(System.out::println);
         } finally {
             session.close();
         }
