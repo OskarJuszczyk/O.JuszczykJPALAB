@@ -108,3 +108,27 @@ Dodanie suplier
 
 ![Screenshot 2022-12-08 at 22.05.20.png](Screenshot%202022-12-08%20at%2022.05.20.png)
 ![Screenshot 2022-12-08 at 22.07.54.png](Screenshot%202022-12-08%20at%2022.07.54.png)
+
+### ZAD 10
+
+I SINGLE TABLE:
+
+![Screenshot 2022-12-08 at 22.08.14.png](Screenshot%202022-12-08%20at%2022.08.14.png)
+![Screenshot 2022-12-08 at 22.10.14.png](Screenshot%202022-12-08%20at%2022.10.14.png)
+![Screenshot 2022-12-08 at 22.11.05.png](Screenshot%202022-12-08%20at%2022.11.05.png)
+![Screenshot 2022-12-08 at 22.13.12.png](Screenshot%202022-12-08%20at%2022.13.12.png)
+![Screenshot 2022-12-08 at 22.14.27.png](Screenshot%202022-12-08%20at%2022.14.27.png)
+![Screenshot 2022-12-08 at 22.15.01.png](Screenshot%202022-12-08%20at%2022.15.01.png)
+![Screenshot 2022-12-08 at 22.15.12.png](Screenshot%202022-12-08%20at%2022.15.12.png)
+
+II JOINED:
+
+![Screenshot 2022-12-08 at 22.16.13.png](Screenshot%202022-12-08%20at%2022.16.13.png)
+![Screenshot 2022-12-08 at 22.16.53.png](Screenshot%202022-12-08%20at%2022.16.53.png)
+![Screenshot 2022-12-08 at 22.17.11.png](Screenshot%202022-12-08%20at%2022.17.11.png)
+
+III TABLE PER CLASS
+
+![Screenshot 2022-12-08 at 22.18.23.png](Screenshot%202022-12-08%20at%2022.18.23.png)
+![Screenshot 2022-12-08 at 22.18.54.png](Screenshot%202022-12-08%20at%2022.18.54.png)
+![Screenshot 2022-12-08 at 22.19.11.png](Screenshot%202022-12-08%20at%2022.19.11.png)
