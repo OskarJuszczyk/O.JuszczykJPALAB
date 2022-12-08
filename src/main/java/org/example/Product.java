@@ -33,6 +33,15 @@ public class Product {
     public Product() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "ProductId=" + ProductId +
+                ", ProductName='" + ProductName + '\'' +
+                ", UnitsOnStock=" + UnitsOnStock +
+                '}';
+    }
 }
 
 

@@ -80,3 +80,4 @@ Dodanie suplier
 ![Screenshot 2022-12-08 at 20.19.19.png](Screenshot%202022-12-08%20at%2020.19.19.png)
 ![Screenshot 2022-12-08 at 20.19.26.png](Screenshot%202022-12-08%20at%2020.19.26.png)
 ![Screenshot 2022-12-08 at 20.19.38.png](Screenshot%202022-12-08%20at%2020.19.38.png)
+![Screenshot 2022-12-08 at 20.23.50.png](Screenshot%202022-12-08%20at%2020.23.50.png)
