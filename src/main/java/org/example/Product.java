@@ -14,42 +14,24 @@ public class Product {
     private String ProductName;
     private int UnitsOnStock;
 
+    @ManyToMany(mappedBy = "products", fetch = FetchType.LAZY)
+    private Set<Invoice> invoices = new LinkedHashSet<>();
 
-    @ManyToOne
-    private Supplier supplier;
+    public Set<Invoice> getInvoices() {
+        return invoices;
+    }
 
-    @ManyToOne
-    private Category category;
+    public void addInvoice(Invoice invoice) {
+        invoices.add(invoice);
+    }
 
-    public Product(String ProductName, int UnitsOnStock, Supplier supplier, Category category) {
+    public Product(String ProductName, int UnitsOnStock) {
         this.ProductName = ProductName;
         this.UnitsOnStock = UnitsOnStock;
-        this.supplier = supplier;
-        this.category = category;
     }
 
     public Product() {
 
-    }
-
-    public void setSupplier(Supplier supplier) {
-        this.supplier = supplier;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "ProductId=" + ProductId +
-                ", ProductName='" + ProductName + '\'' +
-                ", UnitsOnStock=" + UnitsOnStock +
-                ", supplier=" + supplier +
-                ", category=" + category +
-                '}';
     }
 }
 

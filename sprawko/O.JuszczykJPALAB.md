@@ -37,7 +37,6 @@ Dodanie suplier
 
 ### ZAD 3
 
-
 1. Z tabelą łącznikową:
 
 ![Screenshot 2022-12-03 at 11.58.59.png](Screenshot%202022-12-03%20at%2011.58.59.png)
@@ -63,7 +62,6 @@ Dodanie suplier
 ![Screenshot 2022-12-03 at 12.54.26.png](Screenshot%202022-12-03%20at%2012.54.26.png)
 ![Screenshot 2022-12-03 at 12.54.16.png](Screenshot%202022-12-03%20at%2012.54.16.png)
 
-
 ### ZAD 5
 
 ![Screenshot 2022-12-08 at 19.51.10.png](Screenshot%202022-12-08%20at%2019.51.10.png)
@@ -76,3 +74,9 @@ Dodanie suplier
 
 ### ZAD 6
 
+![Screenshot 2022-12-08 at 20.10.18.png](Screenshot%202022-12-08%20at%2020.10.18.png)
+![Screenshot 2022-12-08 at 20.14.33.png](Screenshot%202022-12-08%20at%2020.14.33.png)
+![Screenshot 2022-12-08 at 20.15.02.png](Screenshot%202022-12-08%20at%2020.15.02.png)
+![Screenshot 2022-12-08 at 20.19.19.png](Screenshot%202022-12-08%20at%2020.19.19.png)
+![Screenshot 2022-12-08 at 20.19.26.png](Screenshot%202022-12-08%20at%2020.19.26.png)
+![Screenshot 2022-12-08 at 20.19.38.png](Screenshot%202022-12-08%20at%2020.19.38.png)

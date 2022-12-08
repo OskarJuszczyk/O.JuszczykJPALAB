@@ -28,27 +28,47 @@ public class Main {
         final Session session = getSession();
 
         try {
-//            Transaction tx = session.beginTransaction();
-//            Supplier supplier = new Supplier("Mlekowita", "Kwiatowa", "Warszawa");
-//            Category category = new Category("Nabiał");
-//            Category category1 = new Category("Vegan");
-//            Product product = new Product("Ser", 4, supplier, category);
-//            Product product1 = new Product("Masło vegan", 6, supplier, category1);
-//
-//            supplier.addProduct(product);
-//            supplier.addProduct(product1);
-//            category.addProduct(product);
-//            category1.addProduct(product1);
-//            session.save(supplier);
-//            session.save(category);
-//            session.save(category1);
-//            session.save(product);
-//            session.save(product1);
-//
-//            tx.commit();
+            Transaction tx = session.beginTransaction();
+            Product product = new Product("Ser", 4);
+            Product product1 = new Product("Masło vegan", 6);
+            Product product2 = new Product("Mleko", 2);
+            Product product3 = new Product("Chleb", 1);
 
-            Category category = session.get(Category.class, 116);
-            System.out.println(category.getProducts());
+
+            Invoice invoice = new Invoice(2);
+            Invoice invoice1 = new Invoice(3);
+
+            // INVOICE
+
+            invoice.addProduct(product);
+            product.addInvoice(invoice);
+
+            invoice.addProduct(product1);
+            product1.addInvoice(invoice);
+
+            invoice.addProduct(product2);
+            product2.addInvoice(invoice);
+
+            invoice.addProduct(product3);
+            product3.addInvoice(invoice);
+
+            // INVOICE 1
+
+            invoice1.addProduct(product);
+            product.addInvoice(invoice1);
+
+            invoice1.addProduct(product1);
+            product1.addInvoice(invoice1);
+
+
+            session.save(product);
+            session.save(product1);
+            session.save(product2);
+            session.save(product3);
+            session.save(invoice);
+            session.save(invoice1);
+
+            tx.commit();
         } finally {
             session.close();
         }
