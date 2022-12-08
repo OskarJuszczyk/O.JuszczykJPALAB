@@ -14,7 +14,14 @@ public class Product {
     private String ProductName;
     private int UnitsOnStock;
 
-    @ManyToMany(mappedBy = "products", fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "SUPPLIER_FK")
+    private Supplier supplier;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "CATEGORY_FK")
+    private Category category;
+    @ManyToMany(mappedBy = "products", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     private Set<Invoice> invoices = new LinkedHashSet<>();
 
     public Set<Invoice> getInvoices() {
@@ -25,9 +32,21 @@ public class Product {
         invoices.add(invoice);
     }
 
-    public Product(String ProductName, int UnitsOnStock) {
+
+    public void setSupplier(Supplier supplier) {
+        this.supplier = supplier;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+
+    }
+
+    public Product(String ProductName, int UnitsOnStock, Supplier supplier, Category category) {
         this.ProductName = ProductName;
         this.UnitsOnStock = UnitsOnStock;
+        this.supplier = supplier;
+        this.category = category;
     }
 
     public Product() {
@@ -40,6 +59,9 @@ public class Product {
                 "ProductId=" + ProductId +
                 ", ProductName='" + ProductName + '\'' +
                 ", UnitsOnStock=" + UnitsOnStock +
+                ", supplier=" + supplier +
+                ", category=" + category +
+                ", invoices=" + invoices +
                 '}';
     }
 }

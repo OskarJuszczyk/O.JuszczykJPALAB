@@ -11,11 +11,18 @@ public class MainJPA {
         EntityManager em = emf.createEntityManager();
         EntityTransaction etx = em.getTransaction();
         etx.begin();
+        
+        Supplier supplier = new Supplier("Mlekowita", "Kwiatowa", "Warszawa");
+        Category category = new Category("Nabiał");
+        Product product = new Product("Ser", 4, supplier, category);
+        Product product2 = new Product("Mleko", 2, supplier, category);
 
-        Product product = new Product("Ser", 4);
-        Product product1 = new Product("Masło vegan", 6);
-        Product product2 = new Product("Mleko", 2);
-        Product product3 = new Product("Chleb", 1);
+        Category category1 = new Category("Vegan");
+        Product product1 = new Product("Masło vegan", 6, supplier, category1);
+
+        Supplier supplier1 = new Supplier("Skalanka", "Morska", "Skala");
+        Category category2 = new Category("Pieczywo");
+        Product product3 = new Product("Chleb", 1, supplier1, category2);
 
 
         Invoice invoice = new Invoice(2);

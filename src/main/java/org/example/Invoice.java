@@ -14,7 +14,7 @@ public class Invoice {
     private int Quantity;
 
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     private Set<Product> products = new LinkedHashSet<>();
 
 

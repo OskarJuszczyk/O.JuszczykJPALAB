@@ -83,9 +83,19 @@ Dodanie suplier
 ![Screenshot 2022-12-08 at 20.23.50.png](Screenshot%202022-12-08%20at%2020.23.50.png)
 ![Screenshot 2022-12-08 at 20.25.56.png](Screenshot%202022-12-08%20at%2020.25.56.png)
 
-### ZAD 7!
+### ZAD 7
 
 ![Screenshot 2022-12-08 at 21.10.09.png](Screenshot%202022-12-08%20at%2021.10.09.png)
 ![Screenshot 2022-12-08 at 21.06.21.png](Screenshot%202022-12-08%20at%2021.06.21.png)
 ![Screenshot 2022-12-08 at 21.09.13.png](Screenshot%202022-12-08%20at%2021.09.13.png)
 ![Screenshot 2022-12-08 at 21.07.06.png](Screenshot%202022-12-08%20at%2021.07.06.png)
+
+### ZAD 8
+
+![Screenshot 2022-12-08 at 21.15.59.png](Screenshot%202022-12-08%20at%2021.15.59.png)
+![Screenshot 2022-12-08 at 21.16.02.png](Screenshot%202022-12-08%20at%2021.16.02.png)
+![Screenshot 2022-12-08 at 21.16.16.png](Screenshot%202022-12-08%20at%2021.16.16.png)
+![Screenshot 2022-12-08 at 21.16.37.png](Screenshot%202022-12-08%20at%2021.16.37.png)
+![Screenshot 2022-12-08 at 21.18.48.png](Screenshot%202022-12-08%20at%2021.18.48.png)
+![Screenshot 2022-12-08 at 21.19.25.png](Screenshot%202022-12-08%20at%2021.19.25.png)
+![Screenshot 2022-12-08 at 21.20.12.png](Screenshot%202022-12-08%20at%2021.20.12.png)
